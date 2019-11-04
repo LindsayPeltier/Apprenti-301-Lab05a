@@ -1,0 +1,22 @@
+body{
+  border: solid, 2px, black;
+  display: flex;
+}
+
+header{
+  border: solid, 2px, black;
+  max-height: 100px;
+  max-width: 960px;
+}
+
+aside{
+  border: solid, 2px, black;
+  max-height: 600px;
+  max-width: 200px;
+}
+
+#main{
+  border: solid, 2px, black;
+  max-height: 600px;
+  max-width: 760px;
+}
