@@ -1,22 +1,54 @@
-body{
-  border: solid, 2px, black;
+.flex_wrapper{
   display: flex;
+  flex-flow: row wrap;
 }
 
-header{
-  border: solid, 2px, black;
-  max-height: 100px;
-  max-width: 960px;
-}
-
-aside{
-  border: solid, 2px, black;
-  max-height: 600px;
-  max-width: 200px;
+header {
+  padding: .8em 1em;
+  text-align: center;
+  color: green;
+  font-size: 1.5em;  
 }
 
 #main{
-  border: solid, 2px, black;
-  max-height: 600px;
-  max-width: 760px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border: 2px solid black;
+}
+
+#secondary{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  border: 2px solid red;
+}
+
+aside {
+  display: flex;
+  width: 20%;
+  color: orangered;
+  border: 2px solid black;
+  font-style: italic;
+  font-size: 1.5em;  
+  padding: .5em;
+}
+
+#double {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border: 2px, solid, black;
+}
+
+#quartet {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border: 2px, solid, black;
+}
+
+#single {
+  width: 100%;
+  border: 2px, solid, black;
 }
