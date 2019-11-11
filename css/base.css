@@ -13,7 +13,7 @@ margin: 0px 50px 50px;
 }
 
 /* Each item in the grid contains numbers */
-.item {
+#item {
 /* Center the contents of the grid items. Making each grid item a Flex Container */
 display: flex;
 

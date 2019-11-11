@@ -1,14 +1,8 @@
 /*CSS Grid styles */
 .container {
   display: grid;
-  grid-template-columns: 3fr 5fr 3fr;
-  grid-template-rows: auto auto auto;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 3fr 5fr 3fr;
-  grid-template-rows: auto auto auto;
+  grid-template-columns: 200px 190px 190px 190px 190px;
+  grid-template-rows: 100px 200px 250px 150px;
   grid-template-areas:
       "top top top"
       "left center right"
